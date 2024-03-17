@@ -1,0 +1,7 @@
+FOLDER_TST: /home/edgar/tst
+FOLDER_OUT: /home/edgar/out
+FOLDER_1: /home/edgar/folder1
+FOLDER_2: /home/edgar/folder2
+COUNT: 3
+BS: 1M
+TYPE: zip
