@@ -1,0 +1,53 @@
+мар 24 02:47:58 linux sshd[292779]: Accepted password for user2 from 127.0.0.1 port 33066 ssh2
+мар 24 02:47:58 linux sshd[292779]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+мар 24 02:47:58 linux systemd-logind[598]: New session 6749 of user user2.
+мар 24 02:47:58 linux audit[569]: USER_AVC pid=569 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionNew" name=":1.4" mask="receive" pid=283421 label="snap.firefox.firefox" peer_pid=598 peer_label="unconfined"
+                                      exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+мар 24 02:47:58 linux snapd-desktop-i[192277]: Detected new session 6749 at /org/freedesktop/login1/session/_36749
+мар 24 02:47:58 linux systemd[1]: Started Session 6749 of User user2.
+мар 24 02:47:58 linux sshd[292779]: pam_unix(sshd:session): session closed for user user2
+мар 24 02:47:58 linux systemd[1]: session-6749.scope: Deactivated successfully.
+мар 24 02:47:58 linux systemd-logind[598]: Session 6749 logged out. Waiting for processes to exit.
+мар 24 02:47:58 linux systemd-logind[598]: Removed session 6749.
+мар 24 02:47:58 linux audit[569]: USER_AVC pid=569 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionRemoved" name=":1.4" mask="receive" pid=283421 label="snap.firefox.firefox" peer_pid=598 peer_label="unconfined"
+                                      exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+мар 24 02:47:58 linux sshd[292821]: Accepted password for user2 from 127.0.0.1 port 33078 ssh2
+мар 24 02:47:58 linux sshd[292821]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+мар 24 02:47:58 linux systemd-logind[598]: New session 6750 of user user2.
+мар 24 02:47:58 linux audit[569]: USER_AVC pid=569 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionNew" name=":1.4" mask="receive" pid=283421 label="snap.firefox.firefox" peer_pid=598 peer_label="unconfined"
+                                      exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+мар 24 02:47:58 linux snapd-desktop-i[192277]: Detected new session 6750 at /org/freedesktop/login1/session/_36750
+мар 24 02:47:58 linux systemd[1]: Started Session 6750 of User user2.
+мар 24 02:47:58 linux sshd[292821]: pam_unix(sshd:session): session closed for user user2
+мар 24 02:47:58 linux systemd[1]: session-6750.scope: Deactivated successfully.
+мар 24 02:47:58 linux systemd-logind[598]: Session 6750 logged out. Waiting for processes to exit.
+мар 24 02:47:58 linux systemd-logind[598]: Removed session 6750.
+мар 24 02:47:58 linux audit[569]: USER_AVC pid=569 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionRemoved" name=":1.4" mask="receive" pid=283421 label="snap.firefox.firefox" peer_pid=598 peer_label="unconfined"
+                                      exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+мар 24 02:47:58 linux sshd[292862]: Accepted password for user2 from 127.0.0.1 port 33092 ssh2
+мар 24 02:47:58 linux sshd[292862]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+мар 24 02:47:58 linux audit[569]: USER_AVC pid=569 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionNew" name=":1.4" mask="receive" pid=283421 label="snap.firefox.firefox" peer_pid=598 peer_label="unconfined"
+                                      exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+мар 24 02:47:58 linux systemd-logind[598]: New session 6751 of user user2.
+мар 24 02:47:58 linux snapd-desktop-i[192277]: Detected new session 6751 at /org/freedesktop/login1/session/_36751
+мар 24 02:47:59 linux systemd[1]: Started Session 6751 of User user2.
+мар 24 02:47:59 linux sudo[292902]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+мар 24 02:47:59 linux sudo[292902]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+мар 24 02:48:00 linux sudo[292902]: pam_unix(sudo:session): session closed for user root
+мар 24 02:48:00 linux sshd[292862]: pam_unix(sshd:session): session closed for user user2
+мар 24 02:48:00 linux systemd[1]: session-6751.scope: Deactivated successfully.
+мар 24 02:48:00 linux systemd-logind[598]: Session 6751 logged out. Waiting for processes to exit.
+мар 24 02:48:00 linux audit[569]: USER_AVC pid=569 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionRemoved" name=":1.4" mask="receive" pid=283421 label="snap.firefox.firefox" peer_pid=598 peer_label="unconfined"
+                                      exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+мар 24 02:48:00 linux systemd-logind[598]: Removed session 6751.
+мар 24 02:48:00 linux sshd[292924]: Accepted password for user2 from 127.0.0.1 port 55440 ssh2
+мар 24 02:48:00 linux sshd[292924]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+мар 24 02:48:00 linux systemd-logind[598]: New session 6752 of user user2.
+мар 24 02:48:00 linux audit[569]: USER_AVC pid=569 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionNew" name=":1.4" mask="receive" pid=283421 label="snap.firefox.firefox" peer_pid=598 peer_label="unconfined"
+                                      exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+мар 24 02:48:00 linux snapd-desktop-i[192277]: Detected new session 6752 at /org/freedesktop/login1/session/_36752
+мар 24 02:48:00 linux systemd[1]: Started Session 6752 of User user2.
+мар 24 02:48:00 linux sudo[292964]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+мар 24 02:48:00 linux sudo[292964]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+мар 24 02:48:00 linux sudo[292964]: pam_unix(sudo:session): session closed for user root
+мар 24 02:48:00 linux sshd[292924]: pam_unix(sshd:session): session closed for user user2

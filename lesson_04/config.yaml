@@ -1,0 +1,11 @@
+FOLDER_TST: /home/user2/tst
+FOLDER_OUT: /home/user2/out
+FOLDER_1: /home/user2/folder1
+FOLDER_2: /home/user2/folder2
+COUNT: 10
+BS: 5M
+IP: 0.0.0.0
+USER: user2
+PASSWD: '111'
+PKGNAME: p7zip-full
+TYPE: 7z
